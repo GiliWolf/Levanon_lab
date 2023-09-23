@@ -1,0 +1,2 @@
+#!/bin/bash
+/home/alu/fulther/anaconda3/envs/fastp/bin/fastp -e 30 -u 20 -q 25 -G -A --dont_eval_duplication --in1 ${1}_1.fastq -0 "${1}_1_preprocess.fastq" --in2 "${1}_2.fastq" -O "${1}_2_preprocess.fastq"t
